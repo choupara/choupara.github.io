@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "HPC · performance analysis · ML · formal reasoning"
   location         : "Dresden, Germany"
-  employer         : "Red Brick University"
+  employer         : # "Red Brick University"
   uri              : # URL
   email            : "paramita.chdry@outlook.com"
 
@@ -56,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
