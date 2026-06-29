@@ -15,7 +15,7 @@ When you scale a model across GPUs and throughput goes up, it is tempting to sto
 
 This is a short, honest writeup of one measured finding: scaling DNABERT-2 fine-tuning across **1 → 4 → 8 GPUs** with PyTorch DDP, and using **Score-P** and **Vampir** to ask where the wall-clock time actually goes — compute, or inter-GPU communication.
 
-*(The practical side — eleven errors I hit getting Score-P to trace a DDP run at all — is a separate field guide on [dev.to](DEV_TO_URL_HERE).)*
+*(The practical side — eleven errors I hit getting Score-P to trace a DDP run at all — is a separate field guide on [dev.to](https://dev.to/choupara/debugging-score-p-with-pytorch-ddp-a-field-guide-to-cuda-error-802-and-other-surprises-4ehe).)*
 
 ---
 
@@ -69,4 +69,4 @@ A higher-level metric — throughput, or job-level monitoring at ~30 s sampling 
 
 ---
 
-*Traces generated on a SLURM cluster (A100-SXM4-40GB). The companion field guide on making Score-P and PyTorch DDP coexist is on [dev.to](DEV_TO_URL_HERE).*
+*Traces generated on a SLURM cluster (A100-SXM4-40GB). The companion field guide on making Score-P and PyTorch DDP coexist is on [dev.to](https://dev.to/choupara/debugging-score-p-with-pytorch-ddp-a-field-guide-to-cuda-error-802-and-other-surprises-4ehe).*
